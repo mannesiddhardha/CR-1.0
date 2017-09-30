@@ -1,0 +1,14 @@
+
+from collections import Counter
+
+from collections import deque
+
+from array import array
+
+arr = ('c',"mannesiddhardha")
+arr1 = ("i", [1233,9999])
+
+generator - yeild
+
+decorator - function call inside a function that alters the flow of the function calls.
+
