@@ -1,0 +1,14 @@
+import json
+
+with open("/Users/mannesiddhardha/Desktop/myjson.json",'r') as fj:
+	fread = json.load(fj)
+	for line in fread:
+		print(line)
+    
+    
+# json output is in the dictionary formate , you can filter using the keys.
+
+# print(line['key'])
+
+# loads is for string formate json
+# for writing dump for file and dumps for string format json
