@@ -1,0 +1,8 @@
+
+import sys
+
+sys.argv[0] - print filename
+
+sys.argv - list of cmnd line args parsed as list of string
+
+len(sys.argv) - len on cmd line args
