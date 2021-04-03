@@ -1,0 +1,19 @@
+import numpy
+
+import math
+
+from math import acos
+
+
+print(numpy.pi)
+
+print(math.pi)
+
+#find pi value up to n decimal places
+
+def pical(n):
+val=round(2*acos(0.0),n)
+print(val)
+
+
+pical(5)
